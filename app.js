@@ -6,7 +6,7 @@ const notes = require ("./notes.js")
 
 yargs.command({
     command: "add",
-    describe: "add a new note",
+    describe: "add a new Note",
     builder:{
         title: {
             describe: "note title",
